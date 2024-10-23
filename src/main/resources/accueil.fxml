@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="722.0" prefWidth="1190.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="fr.esgi.simon.controller.SimonController">
+    <Label text="Bienvenue dans le jeu Simon" />
+    <Button onAction="#choisirModeSolo" text="Solo" />
+    <Button onAction="#choisirModeMulti" text="Multijoueur" />
+</VBox>
